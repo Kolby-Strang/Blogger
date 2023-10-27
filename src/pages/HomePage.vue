@@ -11,7 +11,7 @@
 
 <script>
 import { AppState } from '../AppState';
-import { computed, reactive, onMounted } from 'vue';
+import { computed, onMounted } from 'vue';
 import Pop from "../utils/Pop";
 import { blogsService } from '../services/BlogsService.js'
 export default {
